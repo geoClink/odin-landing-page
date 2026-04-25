@@ -1,29 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
 
 
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+p {
+    margin: 0
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     padding-left: 72px;
     padding-right: 72px;
-    font-family: Roboto, sans-serif;
     background: #1F2937;
-
 }
+
+
 
 .header-logo {
     font-size: 24px;
     color: white;
+    padding-top: 10px;
 
 }
 
 .header-links {
-    display:flex;
+    display: flex;
     gap: 20px;
+    padding-top: 10px;
 }
 
 .header-links a {
     text-decoration: none;
-    color: white;
+    color: rgb(208, 206, 206);
     font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    background: #1F2937;
+    font-family: Roboto, sans-serif;
+    padding-top: 50px;
+    padding: 72px;
+    gap: 50px;
+}
+
+.hero-subtitle {
+    font-family: Roboto, sans-serif;
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+
+.hero-text-button {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8
+}
+
+.hero-title, .hero-subtitle {
+    max-width: 400px;
+}
+
+.hero-image {
+    height: 150px;
+    width: 350px;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image p {
+    color: white;
+    padding: 20px;
+}
+
+.hero-text-button button {
+    background: #3883f6;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 14px 3px 14px;
+    width: 100px;
+    
 }
