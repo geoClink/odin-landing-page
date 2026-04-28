@@ -4,7 +4,7 @@ A landing page built from scratch using HTML and CSS as part of The Odin Project
 
 ## Live Demo
 
-[View on GitHub Pages](#) ← add your link here
+[View on GitHub Pages](https://geoclink.github.io/odin-landing-page/) 
 
 ## Features
 
